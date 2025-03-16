@@ -39,7 +39,7 @@ public class App {
         System.out.println("Total Races: " +manager.gettotalRaces());
         System.out.println("Average points per driver: " + ChampionshipStatistics.averagePoints(manager.getDrivers()));
         System.out.println("Most successful country: " + ChampionshipStatistics.mostSuccessfulCountry(manager.getDrivers()));
-        System.out.println("Total Championship Points: " + ChampionshipManager.calculateTotalPoints()+"\n");
+        System.out.println("Total Championship Points: " + manager.calculateTotalPoints()+"\n");
 
         System.out.println("===== RACE RESULTS =====");
         
